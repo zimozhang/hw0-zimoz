@@ -3,7 +3,11 @@ import edu.stanford.nlp.ling.Word;
 import edu.stanford.nlp.objectbank.TokenizerFactory;
 import edu.stanford.nlp.process.PTBTokenizer.PTBTokenizerFactory;
 import edu.stanford.nlp.process.Tokenizer;
-
+/**
+ * abc
+ * @author zimo
+ *
+ */
 public class DependencyExample {
   public static void main(String[] args) {
     TokenizerFactory<Word> factory = PTBTokenizerFactory.newTokenizerFactory();
